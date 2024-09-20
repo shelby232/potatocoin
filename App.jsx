@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import Main from './components/Main'
-import Button from './components/Button';
 
 
 const telegram = window.Telegram.WebApp;
@@ -16,10 +15,9 @@ function App() {
     telegram.MainButton.show();
   }
   return (
-    <div className=' max-w-[500px] m-auto border'>
+    <>
      <Main />
-     <Button />
-    </div>
+    </>
   )
 }
 
