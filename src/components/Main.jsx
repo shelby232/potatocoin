@@ -18,7 +18,7 @@ const Main = () => {
   return (
     <div className=' relative'>
       <div className=' flex flex-col mx-auto m-auto h-auto bg-transparent mt-10 '>
-        <div className='justify-center text-center text-3xl font-bold text-white bg-slate-300 block mx-auto rounded-md w-[240px] mt-20'>Your score:: {count}</div>
+        <div className='justify-center text-center text-3xl font-bold text-white bg-slate-300 block mx-auto rounded-md w-[240px] mt-20'>Your score::: {count}</div>
         <img onClick={handleJump}
 src={coin} alt="" className='mx-auto active:w-[280px] active:h-[280px] transition-all duration-200 mt-40 0 w-[260px] h-[260px] bg-transparent' />
         
